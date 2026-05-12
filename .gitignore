@@ -1,0 +1,50 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### CUSTOM ADDITIONS ###
+
+# Environment variables (Crucial for security)
+.env
+.env.local
+
+# Database migration logs or local DB files
+*.db
+*.sqlite
+
+# macOS specific files (if you or a teammate use Mac)
+.DS_Store
+
+# Logs
+/logs
+*.log
